@@ -1,0 +1,25 @@
+Junggling - É a capacidade que uma variável tem de mudar de tipo;
+
+
+Em php, o tipo de dado armazenado na variável é determinado em tempo de execução;
+
+
+Para saber o tipo de uma variável, é preciso fazer a checagem em tempo de execução (checagem dinâmica);
+
+
+Formas de mudar um tipo de uma variável:
+-Por atribuição:
+	settype(variável, "tipo")
+-Por coerção implicita
+	(O próprio PHP muda o tipo, ex: 1 + 2.0)
+-Por coerção explícita
+	(cast, ex: 1 + (int) 2.0
+
+
+Classificações das conversões de dados:
+
+-Sem perda
+	(Sem perda de dados, ex: 123.4 para string)
+-Com perda
+	(Com perda de dados, ex: 123.4 para int)
+
